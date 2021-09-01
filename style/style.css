@@ -1,0 +1,94 @@
+/* Global */
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+body{
+    background-color: #12161E;
+}
+.logo{
+    object-fit: contain;
+}
+.modal-BG{
+    background-color: #212529;
+    
+}
+.ntxt{
+    
+    color: white;
+    text-decoration: none;
+}
+.ntxt:hover{
+    color: #1878CF;
+    text-decoration: none;
+}
+.srch{
+    background-color: #12161F;
+    /* border: 1px solid white; */
+}
+.fa.fa-search{
+    color:#505258;
+}
+.fa.fa-search:hover , .fa.fa-circle-thin{
+    color:white;
+}
+
+.but{
+    border: 1px solid #b9b9b5;
+}
+.imgC{
+    width: 90%;
+    height: 70%;
+    box-sizing: border-box;
+}
+.fa.fa-star{
+    color: #F9C800;
+}
+.fa.fa-heart-o{
+    color: white;
+}
+.imgC:hover{
+    
+    border: 2px solid #0297CF;
+    opacity: 0.5;
+}
+*{
+    box-sizing: border-box;
+}
+.aHov{
+    color: gray;
+}
+.aHov:hover {
+    color: #0297CF;
+}
+.imgM{
+    width: 100%;
+    /* border: 1px solid green; */
+    
+}
+.btn-P{
+    background-color: #F9C800;
+}
+.imgMove{
+    /* width: fit-content; */
+    /* background-color: #212529; */
+    /* border: 1px solid red; */
+    position: relative;
+    animation: myfirst 5s 5;
+    animation-direction: alternate;
+  }
+  .modD{
+      width: 50%;
+  }
+  @keyframes myfirst {
+    0%   {background: white; right: 0px; }
+    10%  {background: white; right: 50px; }
+    10%  {background: white; right: 100px; }
+    20%  {background: white; right: 150px; }
+    30%  {background: white; right: 200px; }
+    40%  {background: white; right: 250px; }
+    50%  {background: white; right: 200px; }
+    60%  {background: white; right: 50px; }
+    70%  {background: white; right: 100px; }
+    80%  {background: white; right: 150px; }
+    100% {background: white; right: 0px; }
+  }
